@@ -1,8 +1,8 @@
-# Backend Event Management System
+# Backend  System
 
 En REST API för event-management bygd med Fastify, TypeScript och PostgreSQL.
 
-## 📋 Innehål
+## 📋 Innehåll
 
 - [Översikt](#översikt)
 - [Installation](#installation)
@@ -32,7 +32,7 @@ En examination inom backend-utveckling som implementerar ett event-management sy
 
 ```bash
 # Klona och installera
-git clone <repository-url>
+git clone <https://github.com/vyasso/Backend-examination>
 cd Backend-examination
 bun install
 
@@ -95,8 +95,6 @@ GET /api/users/me/registrations    # Mina bokningar
 DELETE /api/registrations          # Avboka
 ```
 
-**Health check:** `GET /api/health`
-
 ## 📁 Projektstruktur
 
 ```
@@ -115,7 +113,7 @@ docker-compose.yml             # Docker-setup
 
 **Arkitektur:** Repository Pattern + MVC
 
-## 📮 Postman
+## Postman
 
 Kollektion finns i `postman/`:
 - Globala variabler: `postman/globals/workspace.globals.yaml`
@@ -123,7 +121,7 @@ Kollektion finns i `postman/`:
 
 Miljövariabler uppdateras automatiskt vid inloggning.
 
-## 🔐 Säkerhet
+## Säkerhet
 
 - **JWT-autentisering** med access & refresh tokens
 - **bcrypt** för lösenord
@@ -132,13 +130,13 @@ Miljövariabler uppdateras automatiskt vid inloggning.
 - **CORS** & input-validering
 - **Unika constraints** förhindrar dubbelbokningar
 
-## 📝 Notes
+## Notes
 
 - `.env` behövs för databas & JWT-hemligt
 - `bun run dev` startar med hot-reload
 - `bun run test-db` kontrollerar databasanslutning
 
-## 🐳 Docker
+## Docker
 
 Redan konfigurerad med PostgreSQL i `docker-compose.yml`:
 
