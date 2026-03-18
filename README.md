@@ -45,7 +45,7 @@ DB_PORT=5432
 JWT_SECRET=din-hemlig-nyckel-här" > .env
 ```
 
-## 🏃 Köra projektet
+##  Köra projektet
 
 ```bash
 # Utveckling (hot-reload)
@@ -60,7 +60,7 @@ bun run test-db
 
 Servern körs på `http://localhost:3000`
 
-## 📡 API
+##  API
 
 ### Autentisering
 
